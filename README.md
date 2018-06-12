@@ -2,6 +2,7 @@
 Creatella Assignment for React Native Engineer
 
 #OS
+
 Tested on Android and IOS
 
 #Startup Guidlines
@@ -31,7 +32,7 @@ This is an ecommerce site, where you can buy all sorts of ascii faces like `(ノ
 
 Please read the instructions and FAQ below before beginning.
 
-#Features
+# Features
 
 - products are displayed in a grid.
 - give the user an option to sort the products in ascending order. Can sort by "size", "price" or "id". The products list should be reloaded when a new sorting option is chosen.
