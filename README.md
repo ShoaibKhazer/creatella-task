@@ -1,11 +1,10 @@
 # Description
 Creatella Assignment for React Native Engineer
 
-#OS
-
+# OS
 Tested on Android and IOS
 
-#Startup Guidlines
+# Startup Guidlines
 
 1. Take a clone of the repository
 2. Go to project directory
@@ -13,21 +12,21 @@ Tested on Android and IOS
 4. run 'npm start' to start Api server on your localhost
 5. Go to creatella-task/src/networkHandler/networkHanler.js and change SYS_IP  to your system IP address 
 
-#For IOS
+# For IOS
 
 open creatella-task/ios/ecommerceApp.xcworkspace in your XCode
 run application on ios simulator 
 
-#For Android
+# For Android
 start your emulator
 run 'react-native run-android' to run application on your emulator
 
 
-#Important Note
+# Important Note
 Don't forget to update SYS_IP  to your system IP address in
 creatella-task/src/networkHandler/networkHanler.js 
 
-#Problem Statement
+# Problem Statement
 This is an ecommerce site, where you can buy all sorts of ascii faces like `(ノ・∀・)ノ` and `¯_(ツ)_/¯`, in a wide variety of font sizes. The homepage should display a list of products for people to browse.
 
 Please read the instructions and FAQ below before beginning.
