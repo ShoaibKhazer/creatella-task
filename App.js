@@ -70,6 +70,8 @@ export default class App extends Component<Props> {
 
   render() {
     let { endOfCatalog, apiUrl, products } = this.state;
+
+
     return (
       <View style={styles.container}>
         <Header

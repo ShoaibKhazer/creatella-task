@@ -1,11 +1,12 @@
 
 // change IP address to your computer Id address
-const SYS_IP = 'http://192.168.0.13';
+const SYS_IP = 'http://192.168.8.100';
 const SERVER_BASE_URL = SYS_IP + ':3000';
 
 let get = (apiEndPoint) => {
     let url = SERVER_BASE_URL + apiEndPoint;
 
+    console.log(url);
     return fetch(url, {
         method: 'GET',
         headers: {
