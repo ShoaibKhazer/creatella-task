@@ -1,7 +1,7 @@
 # Description
 Creatella Assignment for React Native Engineer
 
-# OS
+### OS
 Tested on Android and IOS
 
 # Startup Guidlines
@@ -12,17 +12,17 @@ Tested on Android and IOS
 4. run 'npm start' to start Api server on your localhost
 5. Go to creatella-task/src/networkHandler/networkHanler.js and change SYS_IP  to your system IP address 
 
-# For IOS
+### For IOS
 
 open creatella-task/ios/ecommerceApp.xcworkspace in your XCode
 run application on ios simulator 
 
-# For Android
+### For Android
 start your emulator
 run 'react-native run-android' to run application on your emulator
 
 
-# Important Note
+### Important Note
 Don't forget to update SYS_IP  to your system IP address in
 creatella-task/src/networkHandler/networkHanler.js 
 
@@ -31,7 +31,7 @@ This is an ecommerce site, where you can buy all sorts of ascii faces like `(ノ
 
 Please read the instructions and FAQ below before beginning.
 
-# Features
+### Features
 
 - products are displayed in a grid.
 - give the user an option to sort the products in ascending order. Can sort by "size", "price" or "id". The products list should be reloaded when a new sorting option is chosen.
@@ -44,13 +44,13 @@ Please read the instructions and FAQ below before beginning.
 - to improve the user's experience, we should always pre-emptively fetch the next batch of results in advance, making use of idle-time.  But they still should not be displayed until the user has scrolled to the bottom of the product grid.
 - when the user reaches the end and there are no more products to display, show the message "~ end of catalogue ~".
 
-# Ads features
+### Ads features
 
 - after every 20 products we need to insert an advertisement from one of our sponsors. Use the same markup as the advertisement in the header shown in `public/index/html`, but make sure the `?r` query param is randomly generated each time an ad is displayed.
 - Ads should be randomly selected, but a user must never see the same ad twice in a row.
 
 
-# Products API
+### Products API
 
 - The basic query looks like this: `/api/products`
 - The response format is JSON.
